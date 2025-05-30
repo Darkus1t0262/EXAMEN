@@ -19,5 +19,5 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker tag darkjus/EXAMEN darkjus/EXAMEN:latest
-        docker push darkjus/EXAMEN:latest
+        docker tag darkjus/exam darkjus/exam:latest
+        docker push darkjus/exam:latest
